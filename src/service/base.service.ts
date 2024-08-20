@@ -1,3 +1,5 @@
-export const baseService = async (url: string) => {
-  return fetch(url, { method: 'GET' }).then((res) => res.json())
-}
+export const baseService = {
+  get: async (url: string) => {
+    return fetch(url, { method: "GET" }).then((res) => res.json());
+  },
+};
