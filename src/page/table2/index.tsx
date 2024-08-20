@@ -81,7 +81,7 @@ const data: DataType[] = [
   },
 ];
 // 静态table页面 ，从antdegin 那里去复制需要的组件，怎么知道需要那些组件呢？可以看....from ‘antd'
-export const TableTable = () => {
+export const Table2 = () => {
   const [list, setList] = useState<any[]>([]);
   // 把数据存到states里面，方便后面数据展示在ui上，因为states 运用后，ui会重新渲染，那存在states的数据跟着渲染
 
