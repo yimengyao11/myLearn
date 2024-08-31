@@ -8,6 +8,7 @@ import { Food } from "../page/food";
 import { TableTable } from "../page/Table";
 import { Table2 } from "../page/table2";
 import Game from "../page/tac";
+import { Login1 } from "../page/login1/denglu";
 
 export const router = createBrowserRouter([
   {
@@ -48,5 +49,9 @@ export const router = createBrowserRouter([
   {
     path: "/table2",
     element: <Table2 />,
+  },
+  {
+    path: "/login1",
+    element: <Login1 />,
   },
 ]);
